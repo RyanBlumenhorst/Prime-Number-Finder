@@ -17,7 +17,7 @@ public class PrimeNumberFinder
             //Count of how many factors the number has
             int count = 0;
             //Array to hold the factors
-            int[] factors = new int[n];
+            int[] factors = new int[20];
 
             //Main loop to check for factors
             for ( int i = 1; i <= n; i++ )
